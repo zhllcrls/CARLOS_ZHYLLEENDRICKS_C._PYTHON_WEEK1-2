@@ -1,0 +1,41 @@
+class Comparator:
+    def __init__(self):
+        num1 = int(input("Enter the first number: "))
+        num2 = int(input("Enter the first number: "))
+
+        if num1 > num2:
+            print(f"{num1} is bigger")
+        elif num2 > num1:
+            print(f"{num2} is bigger")
+        else:
+            print("Both are equal")
+
+
+comapre = Comparator()
+
+
+
+
+
+class profile:
+    name = "Zhylle"
+    age = 19
+    address = "Guagua"
+    fav_color = "Blue"
+
+print('I am', name, 'I am', age, 'years old, and I live in', address,
+      'and my favorite color is', fav_color)
+
+
+
+
+
+name = str("Zhylle")
+weight = int("60")
+pounds = float("132.277")
+mode = bool("true")
+
+print(name)
+print(weight)
+print(pounds)
+print(mode)
